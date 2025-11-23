@@ -1,3 +1,3 @@
-public class Material {
-    
+public enum Material{
+    PLASTIC, PAPER, GLASS, METAL, ORGANIC, ELECTRONIC, TEXTILE
 }
