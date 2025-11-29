@@ -1,7 +1,7 @@
 import java.util.Set;
 
 public class EcoRecyclingCentre extends RecyclingCentre {
-    // the set of materials allowed for eco centres
+    // the set of materials allowed for eco-centres
     private Set<Material> allowedMaterials;
 
     // constructor that calls the parent constructor
