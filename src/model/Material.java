@@ -1,3 +1,5 @@
+package model;
+
 public enum Material{
     PLASTIC, PAPER, GLASS, METAL, ORGANIC, ELECTRONIC, TEXTILE
 }

@@ -1,3 +1,5 @@
+package model;
+
 public class Location {
     // name of the place
     private String placeName;
