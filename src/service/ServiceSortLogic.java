@@ -16,11 +16,11 @@ import java.util.Comparator;
 // This is class is responsible for search, sort and caluclation of distance
 // It hables algorithm implementation
 
-public class RecyclingCentreService{
+public class ServiceSortLogic{
     private List<RecyclingCentre> centres;
 
     // Constructor (Non parameterised)
-    public RecyclingCentreService(){
+    public ServiceSortLogic(){
         this.centres = new ArrayList<>();
     }
 
@@ -84,7 +84,7 @@ public class RecyclingCentreService{
     }
 
         // ALgorithm to check for the nearest centre
-        // Uses the fin min distance loic
+        // Uses the find min distance loic
         public RecyclingCentre findNearestCentre(Location userLocation) {
         if (userLocation == null) {
             throw new IllegalArgumentException("User location cannot be null.");
@@ -94,7 +94,7 @@ public class RecyclingCentreService{
         }
 
         RecyclingCentre nearest = null;
-        double minDistance = Double.MAX_VALUE; // Start with a very large number
+        double minDistance = Double.MAX_VALUE; // Using a very lage number
 
         for (RecyclingCentre centre : centres) {
             double distance = centre.getLocation().computeDistance(userLocation);
