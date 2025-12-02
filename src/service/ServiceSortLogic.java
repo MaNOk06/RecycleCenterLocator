@@ -9,6 +9,16 @@ import java.util.List;
 import java.util.Collections;
 
 // Comparators(comparison) provides an odering of collection of objects that do not have natural odering
+/**
+     * How the Comparator works:
+     * It takes two centres (c1 and c2) at a time and calculates the distance from the user to each centre. It then compares these two distance values:
+     * If distance1 < distance2: c1 comes first (it is closer).
+     * If distance1 > distance2: c1 comes after (it is further).</li>
+     * If distance1 == distance2: The order remains unchanged.</li>
+    
+     * * @param userLocation The location of the user acting as the reference point.
+     * @return A new list containing the sorted centres.
+     */
 import java.util.Comparator; 
 
 
