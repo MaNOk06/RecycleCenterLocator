@@ -1,5 +1,5 @@
 package model;
-
+// base class
 import java.util.Set;
 
 public class RecyclingCentre {

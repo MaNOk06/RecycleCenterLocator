@@ -1,5 +1,5 @@
 package model;
-
+// Class for the various centers
 import java.util.Set;
 
 public class EcoRecyclingCentre extends RecyclingCentre {
