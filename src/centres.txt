@@ -1,0 +1,4 @@
+Green Earth Centre|Accra Central|100|200|PLASTIC,PAPER,GLASS
+Eco Recycling Hub|Kumasi Market|150|250|PLASTIC,METAL,ORGANIC
+E-Waste Facility|Accra Tech Park|120|180|ELECTRONIC,METAL
+Textile Recycling|Lagos Fashion District|300|400|TEXTILE,PAPER
