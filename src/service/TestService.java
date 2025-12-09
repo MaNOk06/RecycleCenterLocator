@@ -1,11 +1,11 @@
 package service;
 import model.*;
-import service.ServiceSortLogic;
+import service.RecyclingCenterService;
 import java.util.*;
 
 public class TestService {
     public static void main(String[] args) {
-        ServiceSortLogic service = new ServiceSortLogic();
+        RecyclingCenterService service = new RecyclingCenterService();
 
         // Create a test center
         Location loc = new Location("Test Place", 100, 200);

@@ -4,9 +4,11 @@
 
     PROJECT:        EcoFind
     COURSE:         CS 213 Object Oriented Programming
+    LECTURER:       David Ebo Adjepon-Yamoah
     CONTEXT:        Environmental Sustainability in African Communities
     LANGUAGE:       Java
-    VERSION:        1.0
+    DATE:           9th December 2025
+    GROUP NUMBER:   6
 
 =============================================================================================================================================================
                                                                         TABLE OF CONTENTS
