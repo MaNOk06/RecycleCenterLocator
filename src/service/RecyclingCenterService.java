@@ -26,11 +26,11 @@ import java.util.Comparator;
 // This is class is responsible for search, sort and caluclation of distance
 // It hables algorithm implementation
 
-public class ServiceSortLogic{
+public class RecyclingCenterService{
     private List<RecyclingCentre> centres;
 
     // Constructor (Non parameterised)
-    public ServiceSortLogic(){
+    public RecyclingCenterService(){
         this.centres = new ArrayList<>();
     }
 
