@@ -4,11 +4,11 @@ import model.*;
 import java.util.List;
 
 public class RecyclingLocator {
-    private ServiceSortLogic serviceLogic;
+    private RecyclingCenterService serviceLogic;
     private service.CentreDataLoader dataLoader; // or just CentreDataLoader if same package
 
     public RecyclingLocator() {
-        this.serviceLogic = new ServiceSortLogic();
+        this.serviceLogic = new RecyclingCenterService();
         this.dataLoader = new service.CentreDataLoader(); // Adjust if different package
     }
 
@@ -44,7 +44,7 @@ public class RecyclingLocator {
     }
 
     // Getter for Role 4 (UI)
-    public ServiceSortLogic getServiceLogic() {
+    public RecyclingCenterService getServiceLogic() {
         return serviceLogic;
     }
 
